@@ -1,0 +1,25 @@
+{
+  "name": "greatis/login2see-advanced",
+  "description": "Adds [login]...[/login] BBCode to hide content from guests and unconfirmed users, making it visible only to logged-in, verified members.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "greatis",
+      "email": "ateam@greatis.com"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Login2See Advanced",
+      "icon": {
+        "name": "fas fa-envelope",
+        "backgroundColor": "#4CAF50",
+        "color": "#fff"
+      }
+    }
+  }
+}
