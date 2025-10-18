@@ -20,25 +20,15 @@ Works seamlessly with Flarum core and most third-party extensions.
 🧩 Installation
 In your Flarum root directory, run:
 
-bash
-Copy code
 composer require greatis/login2see-advanced:*
-Or if you’re developing locally:
 
-bash
-Copy code
-composer config repositories.login2see-advanced path "extensions/login2see-advanced"
-composer require greatis/login2see-advanced:*
 ⚙️ Updating
-bash
-Copy code
 composer update greatis/login2see-advanced
 php flarum cache:clear
+
 🧠 Usage
 Wrap the protected content with the [login] tag:
 
-bbcode
-Copy code
 [login]
 This section is visible only to logged-in, verified users.
 [/login]
