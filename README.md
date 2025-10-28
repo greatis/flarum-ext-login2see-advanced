@@ -4,6 +4,8 @@
 
 Adds `[login]...[/login]` BBCode that hides content from guests and unconfirmed users, making it visible only to logged-in, email-verified members.
 
+It is the fork of "nhanchaukp/login-to-see" extension.
+
 ---
 
 ## 🔧 Features
@@ -11,6 +13,7 @@ Adds `[login]...[/login]` BBCode that hides content from guests and unconfirmed 
 - Protect parts of posts using simple BBCode:
   ```bbcode
   [login]This content is visible only to logged-in, verified users.[/login]
+  
 Guests and unverified users will see a message prompting them to log in or confirm their email.
 
 Supports Markdown and other BBCodes inside [login]...[/login].
@@ -52,9 +55,3 @@ Licensed under the MIT License.
 Developed by Greatis Software
 
 Login2See Advanced — make your private content truly members-only.
-
-
-
-
-
-

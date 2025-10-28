@@ -1,4 +1,5 @@
 <?php
+namespace Greatis\Login2SeeAdvanced;
 
 use Flarum\Extend;
 // use Flarum\User\Event\Activated;

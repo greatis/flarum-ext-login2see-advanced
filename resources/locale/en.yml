@@ -1,4 +1,4 @@
 greatis-login2see-advanced:
   forum:
     hidden_content: HIDDEN CONTENT
-    login_to_see: "You need to {login} and refresh to see the content"
+    login_to_see: "You need to {login} to view this content. (Refresh after logging in.)"
